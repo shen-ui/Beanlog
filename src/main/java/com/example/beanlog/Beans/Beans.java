@@ -1,4 +1,4 @@
-package com.example.beanlog.beans;
+package com.example.beanlog.Beans;
 
 import com.example.beanlog.Notes.Post;
 import lombok.Getter;

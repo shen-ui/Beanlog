@@ -1,4 +1,4 @@
-package com.example.beanlog.beans;
+package com.example.beanlog.Beans;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -1,4 +1,4 @@
-package com.example.beanlog.beans;
+package com.example.beanlog.Beans;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
