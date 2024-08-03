@@ -22,17 +22,20 @@ public class Beans {
             generator="beans_sequence"
     )
     private Integer id;
-    @Setter @ Getter private String name;
-    @Setter @ Getter private String roast_level;
-    @Setter @ Getter private String origin;
-    @Setter @ Getter private String[] tasting_notes;
-    @Setter @ Getter private Double price_per_lb;
+    @Setter @Getter private String name;
+    @Setter @Getter private String brand;
+    @Setter @Getter private String roast_level;
+    @Setter @Getter private String origin;
+    @Setter @Getter private String[] tasting_notes;
+    @Setter @Getter private Double price_per_lb;
     @Setter @Getter private ArrayList<Post> posts;
     public Beans(){}
-    public Beans(String name, String roast_level, String origin, String[] tasting_notes, Double price_per_lb){
+    public Beans(String brand, String name, String roast_level, String origin, String[] tasting_notes, Double price_per_lb){
+        setBrand(this.brand);
         setName(this.name);
         setRoast_level(this.roast_level);
         setOrigin(this.origin);
+        setPrice_per_lb(this.price_per_lb);
         setTasting_notes(this.tasting_notes);
         setPosts(new ArrayList<Post>());
     }
